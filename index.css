@@ -1,0 +1,29 @@
+#root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.direction{
+    height: 27rem;
+}
+
+.card-style{
+    width:30rem;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:700px){
+    .card-style{
+        width: 25rem;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .card-style{
+        width: 18rem;
+        margin-left: 10px;
+    }
+}
